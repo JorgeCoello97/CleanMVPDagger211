@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CleanMVP</string>
+    <string name="save_translation">Guardar Traducción</string>
+    <string name="refresh">Actualizar</string>
+    <string name="translation">Traducción</string>
+    <string name="term">Término</string>
+    <string name="clear">Vaciar</string>
+    <string name="error_on_saving_translation">No se ha podido almacenar la traducción.</string>
+    <string name="error_no_records">No se han podido obtener registros.</string>
+    <string name="error_not_cleared">No se han podido vaciar los registros.</string>
+</resources>

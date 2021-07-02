@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CleanMVPDagger211.iml" filepath="$PROJECT_DIR$/.idea/modules/CleanMVPDagger211.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/CleanMVPDagger211.data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/CleanMVPDagger211.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/CleanMVPDagger211.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/CleanMVPDagger211.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/presentation/CleanMVPDagger211.presentation.iml" filepath="$PROJECT_DIR$/.idea/modules/presentation/CleanMVPDagger211.presentation.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.DictionaryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linear_layout_word_edition">
+
+        <com.google.android.material.textfield.TextInputLayout style="@style/textInputLayout" android:hint="@string/term">
+            <EditText android:id="@+id/term_edit_text" style="@style/editor" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout style="@style/textInputLayout" android:hint="@string/translation">
+            <EditText android:id="@+id/translation_edit_text" style="@style/editor" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button style="@style/buttonLarge" android:id="@+id/btn_save_word" android:text="@string/save_translation" />
+
+        <View style="@style/separatorLine"></View>
+    </LinearLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/swipe_layout"
+        android:layout_below="@+id/linear_layout_word_edition">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_view_dictionary">
+        </ListView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/btn_add" style="@style/floatingActionButtonCenterBottom" android:src="@drawable/ic_add" />
+
+<ProgressBar android:id="@+id/loading_progress"
+    style="?android:attr/progressBarStyleLarge"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:visibility="gone"
+    />
+
+</RelativeLayout>
