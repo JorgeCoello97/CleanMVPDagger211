@@ -1,5 +1,5 @@
 # CleanMVPDagger211
-<img  src="https://www.marcombo.com/wp-content/uploads/2018/11/9788426726490.jpg"/>
+<img  src="https://www.marcombo.com/wp-content/uploads/2018/11/9788426726490.jpg" width="400" height="500"/>
 
 ## Description
 APP of Book: "Android from architecture design to professional deployment".
