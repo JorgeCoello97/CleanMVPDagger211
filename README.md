@@ -5,10 +5,10 @@
 APP of Book: "Android from architecture design to professional deployment".
 
 ## Targets
-* Learn a clear architecture.
-<img src="./clear.png"/>
+* Learn a clean architecture.
+<img src="./clean.png"/>
 ---
 ## Knowledge obtained
-* Clear architecture with MVP.
+* Clean architecture with MVP.
 * RxJava
 
